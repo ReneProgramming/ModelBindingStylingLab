@@ -1,3 +1,7 @@
 # CPW219-ModelBinding Styling Lab
-Starter code for lab activity. Your task is to change the UserProfile page and 3D printer list pages and style them. You can
-use custom CSS or a framework like Bootstrap
+Model binding styling lab for class CPW219 <br/>
+In this lab I have changed the styling for both the profile page and printer list
+
+![image](https://github.com/user-attachments/assets/81c5254b-cab0-4c50-8a3d-cd6070cc9bb4)
+
+![image](https://github.com/user-attachments/assets/c1605efc-016d-40ad-ac32-623b0b984544)
