@@ -4,11 +4,12 @@
     ViewData["Title"] = "Printer List";
 }
 
-<h1>PrinterList</h1>
+<h1 class="text-center">PrinterList</h1>
+<br />
 
 <table class="table">
     <thead>
-        <tr>
+        <tr class="text-white" style="background-color:black">
             <th>
                 @Html.DisplayNameFor(model => model.SKU)
             </th>
@@ -29,20 +30,21 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
-            <td>
+        <tr class="" style="background-color:mintcream">
+            <td style="color:#9c33ff">
                 @Html.DisplayFor(modelItem => item.SKU)
             </td>
-            <td>
+            <td style="color:black">
+            <b/>
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
-            <td>
+            <td style="color:forestgreen">
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
-            <td>
+            <td style="color:#c39bd3">
                 @Html.DisplayFor(modelItem => item.BuildVolume)
             </td>
-            <td>
+            <td style="color:blue">
                 @Html.DisplayFor(modelItem => item.PrinterImage)
             </td>
         </tr>
